@@ -1,0 +1,137 @@
+header {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+}
+
+header .caption {
+    color: #fff;
+}
+
+header nav {
+    background-color: transparent;
+}
+
+header .caption h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+header .caption p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+header .caption a {
+    color: #EB1D65;
+    text-decoration: none;
+}
+
+.nav-item .nav-link:hover {
+    color: #EB1D65;
+}
+
+.icons {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+}
+
+.icons i {
+    margin: 0px 10px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    padding: 8px;
+    transition: all .5s;
+}
+
+.icons i:hover {
+    border: 1px solid #fff;
+}
+
+.title {
+    position: relative;
+
+}
+
+.title h2 {
+    font-weight: 900;
+    font-size: 60px;
+    color: #ccc;
+}
+
+.title h3 {
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+}
+
+
+
+.about-info h5 {
+    color: #EB1D65;
+}
+
+.about-info p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.services h2 {
+    color: rgb(84, 84, 84, .6);
+    font-size: 80px;
+}
+
+.services h3 {
+    font-size: 45px;
+}
+
+.services p {
+    color: #ccc;
+}
+
+.service {
+
+    position: relative;
+}
+
+.service h5 {
+    padding-top: 5%;
+    position: relative;
+}
+
+.service h5::after {
+    content: '';
+    background-color: #EB1D65;
+    width: 15%;
+    height: 1px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.service p {
+    padding-top: 5%;
+    color: #737478;
+}
+
+.service i {
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .5s;
+}
+
+.service i:hover {
+    color: #EB1D65;
+}
